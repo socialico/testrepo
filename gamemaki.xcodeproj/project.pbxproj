@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5121487138BBC1D006F5169 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5121486138BBC1D006F5169 /* UIKit.framework */; };
+		D5121489138BBC1D006F5169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5121488138BBC1D006F5169 /* Foundation.framework */; };
+		D512148B138BBC1D006F5169 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D512148A138BBC1D006F5169 /* CoreGraphics.framework */; };
+		D5121491138BBC1D006F5169 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D512148F138BBC1D006F5169 /* InfoPlist.strings */; };
+		D5121494138BBC1D006F5169 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5121493138BBC1D006F5169 /* main.m */; };
+		D5121497138BBC1D006F5169 /* gamemakiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5121496138BBC1D006F5169 /* gamemakiAppDelegate.m */; };
+		D512149A138BBC1D006F5169 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5121498138BBC1D006F5169 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5121482138BBC1D006F5169 /* gamemaki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gamemaki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5121486138BBC1D006F5169 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5121488138BBC1D006F5169 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D512148A138BBC1D006F5169 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D512148E138BBC1D006F5169 /* gamemaki-Info.plist */ = {isa = PBXFileReference; path = "gamemaki-Info.plist"; sourceTree = "<group>"; };
+		D5121490138BBC1D006F5169 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5121492138BBC1D006F5169 /* gamemaki-Prefix.pch */ = {isa = PBXFileReference; path = "gamemaki-Prefix.pch"; sourceTree = "<group>"; };
+		D5121493138BBC1D006F5169 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5121495138BBC1D006F5169 /* gamemakiAppDelegate.h */ = {isa = PBXFileReference; path = gamemakiAppDelegate.h; sourceTree = "<group>"; };
+		D5121496138BBC1D006F5169 /* gamemakiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gamemakiAppDelegate.m; sourceTree = "<group>"; };
+		D5121499138BBC1D006F5169 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D512147F138BBC1D006F5169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5121487138BBC1D006F5169 /* UIKit.framework in Frameworks */,
+				D5121489138BBC1D006F5169 /* Foundation.framework in Frameworks */,
+				D512148B138BBC1D006F5169 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5121477138BBC1D006F5169 = {
+			isa = PBXGroup;
+			children = (
+				D512148C138BBC1D006F5169 /* gamemaki */,
+				D5121485138BBC1D006F5169 /* Frameworks */,
+				D5121483138BBC1D006F5169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5121483138BBC1D006F5169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5121482138BBC1D006F5169 /* gamemaki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5121485138BBC1D006F5169 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5121486138BBC1D006F5169 /* UIKit.framework */,
+				D5121488138BBC1D006F5169 /* Foundation.framework */,
+				D512148A138BBC1D006F5169 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D512148C138BBC1D006F5169 /* gamemaki */ = {
+			isa = PBXGroup;
+			children = (
+				D5121495138BBC1D006F5169 /* gamemakiAppDelegate.h */,
+				D5121496138BBC1D006F5169 /* gamemakiAppDelegate.m */,
+				D5121498138BBC1D006F5169 /* MainWindow.xib */,
+				D512148D138BBC1D006F5169 /* Supporting Files */,
+			);
+			path = gamemaki;
+			sourceTree = "<group>";
+		};
+		D512148D138BBC1D006F5169 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D512148E138BBC1D006F5169 /* gamemaki-Info.plist */,
+				D512148F138BBC1D006F5169 /* InfoPlist.strings */,
+				D5121492138BBC1D006F5169 /* gamemaki-Prefix.pch */,
+				D5121493138BBC1D006F5169 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5121481138BBC1D006F5169 /* gamemaki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D512149D138BBC1D006F5169 /* Build configuration list for PBXNativeTarget "gamemaki" */;
+			buildPhases = (
+				D512147E138BBC1D006F5169 /* Sources */,
+				D512147F138BBC1D006F5169 /* Frameworks */,
+				D5121480138BBC1D006F5169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gamemaki;
+			productName = gamemaki;
+			productReference = D5121482138BBC1D006F5169 /* gamemaki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5121479138BBC1D006F5169 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D512147C138BBC1D006F5169 /* Build configuration list for PBXProject "gamemaki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5121477138BBC1D006F5169;
+			productRefGroup = D5121483138BBC1D006F5169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5121481138BBC1D006F5169 /* gamemaki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5121480138BBC1D006F5169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5121491138BBC1D006F5169 /* InfoPlist.strings in Resources */,
+				D512149A138BBC1D006F5169 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D512147E138BBC1D006F5169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5121494138BBC1D006F5169 /* main.m in Sources */,
+				D5121497138BBC1D006F5169 /* gamemakiAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D512148F138BBC1D006F5169 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5121490138BBC1D006F5169 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5121498138BBC1D006F5169 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5121499138BBC1D006F5169 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D512149B138BBC1D006F5169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D512149C138BBC1D006F5169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D512149E138BBC1D006F5169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gamemaki/gamemaki-Prefix.pch";
+				INFOPLIST_FILE = "gamemaki/gamemaki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D512149F138BBC1D006F5169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gamemaki/gamemaki-Prefix.pch";
+				INFOPLIST_FILE = "gamemaki/gamemaki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D512147C138BBC1D006F5169 /* Build configuration list for PBXProject "gamemaki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D512149B138BBC1D006F5169 /* Debug */,
+				D512149C138BBC1D006F5169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D512149D138BBC1D006F5169 /* Build configuration list for PBXNativeTarget "gamemaki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D512149E138BBC1D006F5169 /* Debug */,
+				D512149F138BBC1D006F5169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5121479138BBC1D006F5169 /* Project object */;
+}
