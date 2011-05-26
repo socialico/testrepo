@@ -7,6 +7,8 @@
 //
 
 #import "gamemakiAppDelegate.h"
+#import "AlbumController.h"
+#import <Three20/Three20.h>
 
 @implementation gamemakiAppDelegate
 
@@ -16,7 +18,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    [self.window makeKeyAndVisible];
+    TTNavigator* navigator = [TTNavigator navigator];
+    TTURLMap* map = navigator.URLMap;
+    [map from:@"demo://album" toViewController:  [AlbumController class]];
+    
+    //set starting page
+    [navigator openURLAction:[TTURLAction actionWithURLPath:@"demo://album"]];
     return YES;
 }
 
